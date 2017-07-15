@@ -1,0 +1,277 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top:-10px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size:20px;
+    font-family:ubuntu;
+    background:#f5f5f5;
+    
+}
+#LoopHead
+{
+	margin-bottom:4%; color:white; text-align:center; font-size:60px;
+}
+#bar
+{
+    background:black;
+}
+#imgheader
+{
+    margin-top: -2%;
+    border-radius:0px 0px 360px 360px;
+}
+.container
+{
+    background:white;
+}
+
+h1,h2,h3,h4
+{
+    color:black;
+    font-family: Josefin-slab;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#hHeader
+    {
+        background:white;
+        height:;
+       // margin-top:1%;
+         font-family: 'Tangerine', serif;
+    }
+
+#bar
+{
+   background:#006393;
+   border:none; /*#4fffff*/
+   padding-top:5px;
+   border-top:solid #006393;
+}
+#bar ul li a, #bar a
+{
+	color:white;
+	/*background:#b0b0b0;*/
+}
+#bar ul li a:hover,#bar a:hover
+{
+	border-bottom:solid #4fffff;
+	
+}
+#bar ul li a,#bar a{
+    border-bottom:#006393;
+}
+#page
+{
+    border-bottom:#006393;
+    color:white;
+}   
+
+.sidebar
+{
+    background:white;
+    margin-top:15%;
+    margin-bottom:10%;
+
+   
+}
+.fb
+{
+//margin-top: 120px;
+  
+
+   
+}
+#verticalLine {
+        //background:#c0c0c0;
+        //border-left: solid #1b6d85;
+       border-right:solid #1b6d85;
+        
+}
+.well{
+    
+        margin-top: 10%   
+    }
+#posth1
+    {
+        color:#269abc;
+    }
+    
+#popular
+    {
+        background:#269abc;
+    }
+#popular p
+    {
+        color:white;
+    }    
+#coverPopular
+    {   
+        margin-top:15%;
+        margin-bottom:15%;
+    }
+#program
+    {
+        background:#f9f9f9;
+        margin-right:4%;
+        margin-top:2%;
+    }    
+#mobProgram
+{
+    display:none
+}    
+#live_data
+{
+    background:white;
+    display:none;
+}
+#commspace
+{
+    margin-left: 3%;
+    margin-top: 0%;
+}
+#comment
+{
+     border-radius: 20px 20px 20px 20px;
+}
+form
+{
+    width:100%;
+}
+input[type="text"],[type="email"],textarea
+{
+    width:60%;
+    margin-bottom:4%;
+    background:;
+    border:#E1E1E1;
+}
+textarea
+{
+    width:90%;
+    
+}
+input[type="sumbit"]
+{
+    padding:10px 30px 10px 30px;
+    background:#269abc;
+}
+#btn-comment{float:right;}
+pre
+{
+    background:#f7f7f7; font-size:14px; font-style:strong; color:black;
+    
+}
+ body{background:#f7f7f7;} 
+
+@media screen and (max-width: 992px) {
+  
+    
+    
+    p,.btn,input,div,span,h4 ,ul{
+    font-size: 95%;
+     
+  }
+  #LoopHead
+  {
+	  display:block;
+  }
+  
+  #bar ul li a:hover,#bar a:hover
+{
+	opacity:0.5;
+	border-top:none;	
+}
+  
+  h1 {
+    font-size: 24px;  
+  }
+  h2 {
+    font-size: 22px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+  img
+  {
+      width:100%;
+      height:200px;
+  }
+  #verticalLine {
+        //background:#c0c0c0;
+        //border-left: thick solid black;
+       // border-top:solid #269abc;
+        
+}
+.fb-page
+{
+    width:90%;
+}
+#fbcomment
+{
+    width:80%;
+}
+
+code
+{
+    font-size:12px;
+}
+
+
+
+#mobProgram
+    {
+        background:#f9f9f9;
+        display:block;
+    }    
+#program
+{
+    display:none
+}    
+#imgheader
+{
+    display:none;
+}
+
+#count{display: none;}
+.nav navbar-nav{border-bottom:none; text-decoration: none;}
+#bs-example-navbar-collapse-1{border-top:none; }
+}
+@media screen and (max-width: 768px) {
+  pre{
+    font-size:10px;
+    }
+   p,.btn,input,div,span,h4 {
+    font-size: 95%;
+   
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+  img
+  {
+      //width:80%;
+      height:200px;
+      width:100%;
+  }
+  .fb-page
+  {
+    width:90%;
+  }
+  #imgheader
+{
+    display:none;
+}
+  #count{display: none;}
+}
